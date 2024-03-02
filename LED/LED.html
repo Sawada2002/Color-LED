@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RGB LED Simulation</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div id="colorBox"></div>
+  <div>
+    <label for="redValue">Red:</label>
+    <input type="range" id="redValue" min="0" max="255" value="0">
+    <span id="redDisplay">0</span>
+  </div>
+  <div>
+    <label for="greenValue">Green:</label>
+    <input type="range" id="greenValue" min="0" max="255" value="0">
+    <span id="greenDisplay">0</span>
+  </div>
+  <div>
+    <label for="blueValue">Blue:</label>
+    <input type="range" id="blueValue" min="0" max="255" value="0">
+    <span id="blueDisplay">0</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
